@@ -17,6 +17,7 @@ public class Test {
 		String userName = userInput.nextLine();
 		System.out.println("Hello, " + userName + "!");
 		
+		userInput.close();
 		
 	}
 
